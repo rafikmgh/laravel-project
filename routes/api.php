@@ -21,3 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 get('about' , function () {
    return 'About page';
 });
+
+get('reporting', function () {
+        return 'Repoting Feature';
+    });
